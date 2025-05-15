@@ -1,17 +1,33 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import os
+from datetime import datetime
+from agno.agent import Agent
+from agno.models.groq import Groq
+from agno.tools.duckduckgo import DuckDuckGoTools
+from agno.tools.wikipedia import WikipediaTools
 
 load_dotenv()
 
-Gemini_api_key =  os.environ.get("GEMINI_API_KEY")
-
-print("Gemini api is set into enviroment.")
-model = ChatGoogleGenerativeAI(
-    model = "gemini-2.0-flash",
-    temperature=0.7,
-    api_key=Gemini_api_key
+interest ="Islamabad pakistan"
+budget = "5000rs"
+travel_date= "may 2025"
+agent = Agent(
+    model=Groq(id="qwen-qwq-32b"),
+    tools=[DuckDuckGoTools()],
+    markdown=True,
+    stream=True,
+    system_message=f"""
+    **Travel Scout Agent** - Direct Recommendations
+    You're helping plan a trip to {interest} with:
+    - Budget: {budget}
+    - Travel Period: {travel_date}
+    
+    Provide 5-7 locations with:
+    1. Cost estimates
+    2. Best visiting times
+    3. Key features
+    4. Seasonal advice
+    """
 )
 
-response=model.invoke("Who is imran khan?").content
-print(response)
+print(agent.print_response())
