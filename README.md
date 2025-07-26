@@ -1,19 +1,16 @@
-Absolutely! Here's your **professional and clean `README.md` in English** for the GitHub repository: [Trip-advisor-agent](https://github.com/Nimraaaaaaaa/Trip-advisor-agent). You can copy-paste it into your `README.md` file directly:
 
----
 
-````markdown
-# 🧳 Trip Advisor Agent
+ Trip Advisor Agent
 
 An intelligent travel assistant powered by Large Language Models (LLMs) to help users generate personalized travel recommendations, hotel suggestions, and multi-day itineraries.
 
 ---
 
-## 🌍 Overview
+ 🌍 Overview
 
-The **Trip Advisor Agent** is designed to assist users in planning their trips by leveraging:
-- Language models (like OpenAI's GPT)
-- Custom agent workflows
+The Trip Advisor Agent is designed to assist users in planning their trips by leveraging:
+- Language models (like OpenAI's GPT) for future use
+- Custom agent workflows (Agno workflows)
 - Optional integration with search tools (like Serper, Google Search)
 
 It helps users by:
