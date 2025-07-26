@@ -9,7 +9,7 @@ An intelligent travel assistant powered by Large Language Models (LLMs) to help 
  🌍 Overview
 
 The Trip Advisor Agent is designed to assist users in planning their trips by leveraging:
-- Language models (like OpenAI's GPT) for future use
+- Language models (like llama ) for future use
 - Custom agent workflows (Agno workflows)
 - Optional integration with search tools (like Serper, Google Search)
 
@@ -32,20 +32,20 @@ It helps users by:
 
 ## ⚙️ Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/Nimraaaaaaaa/Trip-advisor-agent.git
 cd Trip-advisor-agent
 ````
 
-2. **Install dependencies:**
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Set up your `.env` file with API keys (if needed):**
+3. Set up your `.env` file with API keys (if needed):
 
 ```bash
 OPENAI_API_KEY=your_openai_api_key
@@ -111,15 +111,15 @@ Trip-advisor-agent/
 
 ## 📝 Example Input
 
-* Destination: **Tokyo**
-* Days: **5**
-* Theme: **Food lover**
+ Destination: Tokyo
+ Days: 5
+ Theme: Food lover
 
 The agent will return:
 
-* 5-day Tokyo itinerary
-* Restaurant suggestions
-* Hotel options
+ 5-day Tokyo itinerary
+ Restaurant suggestions
+ Hotel options
 
 ---
 
@@ -137,21 +137,22 @@ Then open a Pull Request 🚀
 
 ---
 
-## 📜 License
+📜 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🙌 Acknowledgements
+🙌 Acknowledgements
 
-* [OpenAI](https://openai.com/) for GPT APIs
-* [Serper.dev](https://serper.dev/) for optional web search integration
+ [OpenAI](https://openai.com/) for GPT APIs
+  [Grok API](https://grok.x.ai/) for real-time contextual understanding 
+ [Serper.dev](https://serper.dev/) for optional web search integration
 * Community resources and tools
 
 ---
 
-⭐ If you find this project useful, consider giving it a **star** on GitHub!
+⭐ If you find this project useful, consider giving it a star on GitHub!
 
 ```
 
