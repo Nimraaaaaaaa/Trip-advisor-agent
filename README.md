@@ -30,7 +30,7 @@ It helps users by:
 
 ---
 
-## ⚙️ Installation
+ ⚙️ Installation
 
 1. Clone the repository:
 
@@ -54,12 +54,12 @@ SERPER_API_KEY=your_serper_api_key (optional)
 
 ---
 
-## 🧪 Usage
+🧪 Usage
 
 You can run the app as a script or through a user interface (if added):
 
 ```bash
-python main.py
+python (Agents name.py)
 ```
 
 Or with Streamlit (if integrated):
@@ -72,7 +72,7 @@ The system will ask for user inputs like destination, number of days, and prefer
 
 ---
 
-## 📁 Suggested Project Structure
+ 📁 Suggested Project Structure
 
 ```
 Trip-advisor-agent/
@@ -91,7 +91,7 @@ Trip-advisor-agent/
 
 ---
 
-## 🧠 How It Works
+ 🧠 How It Works
 
 1. User provides destination, number of days, and travel preferences.
 2. Agent generates prompts to search for relevant information.
@@ -100,7 +100,7 @@ Trip-advisor-agent/
 
 ---
 
-## 🔐 Environment Variables
+ 🔐 Environment Variables
 
 | Variable         | Description                     |
 | ---------------- | ------------------------------- |
@@ -109,7 +109,7 @@ Trip-advisor-agent/
 
 ---
 
-## 📝 Example Input
+📝 Example Input
 
  Destination: Tokyo
  Days: 5
@@ -123,7 +123,7 @@ The agent will return:
 
 ---
 
-## 👥 Contributing
+👥 Contributing
 
 Contributions are welcome!
 
